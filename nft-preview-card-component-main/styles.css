@@ -1,5 +1,5 @@
 body {
-    background-color: #1B335A;
+    background-color: hsl(217, 54%, 11%);
 }
 
 .attribution {
@@ -8,4 +8,21 @@ body {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+#box1{
+    color: white;
+    border-radius: 7px;
+    background-color: hsl(216, 50%, 16%);
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+.nftimage{
+    border-radius: 10%;
+    height: 170px;
+    width: 170px;
+    padding: 15px;
 }
