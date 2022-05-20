@@ -1,10 +1,13 @@
 body {
     background-color: hsl(217, 54%, 11%);
+    font-family: Outfit;
 }
 
 .attribution {
+    position: fixed;
+    bottom: 10px;
     font-size: 11px;
-    text-align: center;
+
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
@@ -15,14 +18,28 @@ body {
     border-radius: 7px;
     background-color: hsl(216, 50%, 16%);
     width: 200px;
-    height: 300px;
+    height: 400px;
     margin: auto;
-    padding: 10px;
+    padding: 15px;
+    position: relative;
+    top: 200px;
 }
 
 .nftimage{
-    border-radius: 10%;
-    height: 170px;
-    width: 170px;
-    padding: 15px;
+    border-radius: 5%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: -1px;
+    left: 0px;
+}
+
+.text1{
+    font-size: 12px;
+    color: hsl(215, 51%, 70%);
+}
+
+.text2{
+    font-size: 12px;
+    color: hsl(178, 100%, 50%);
 }
